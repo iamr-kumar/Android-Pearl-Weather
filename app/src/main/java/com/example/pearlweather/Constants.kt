@@ -7,6 +7,13 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 
 object Constants {
+
+    const val APP_ID: String = "f31a5842e6d25da2c9de466f3ff67a68"
+    const val BASE_URL: String = "http://api.openweathermap.org/"
+    const val METRIC_UNIT: String = "metric"
+    const val PREFERENCE_NAME = "WeatherAppPreference"
+    const val WEATHER_RESPONSE_DATA = "weather_response_data"
+
     fun isNetworkAvailable(context: Context) : Boolean {
         val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
 

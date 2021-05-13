@@ -23,4 +23,6 @@ class SplashActivity : AppCompatActivity() {
         }, SPLASH_SCREEN_TIMEOUT)
 
     }
+
+
 }
